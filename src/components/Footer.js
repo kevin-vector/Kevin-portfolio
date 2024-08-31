@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { BsWhatsapp } from "react-icons/bs";
-import { SiGmail } from "react-icons/si";
+import { BsDiscord, BsSkype, BsWhatsapp } from "react-icons/bs";
+import { SiGmail, SiGithub } from "react-icons/si";
 
 function Footer() {
   let date = new Date();
@@ -9,17 +9,14 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+        <Col md="6" className="footer-copywright">
+          <h3>Copyright © {year} KA</h3>
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
-        </Col>
-        <Col md="4" className="footer-body">
+        <Col md="6" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://kevinallen5877066@gmail.com"
+                href="mailto:kevinallen5877066@gmail.com?subject=To Kevin!&body=Hi there!%0D%0AYou are invited to join us for an event. Looking forward to seeing you!"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -29,7 +26,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://"
+                href="https://wa.me/17622158287?text=Hello, Kevin!%20I%20would%20like%20to%20contact%20with%20you."
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -37,26 +34,36 @@ function Footer() {
                 <BsWhatsapp />
               </a>
             </li>
-            {/* <li className="social-icons">
+            <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://discord.gg/invite-code"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaLinkedinIn />
+                <BsDiscord />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="skype:live:.cid.74205addcd887d45?chat"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram />
+                <BsSkype />
               </a>
-            </li> */}
+            </li>            
+            <li className="social-icons">
+                <a                
+                  // href = "https://github.com/kevin0820-dev"
+                  style={{ color: "white" }}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <SiGithub />
+                </a>
+              </li>
           </ul>
         </Col>
       </Row>

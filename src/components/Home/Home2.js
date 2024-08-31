@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.jpg";
 import Tilt from "react-parallax-tilt";
 import { SiGithub, SiGmail, SiWhatsapp } from "react-icons/si";
+import { BsDiscord, BsSkype } from "react-icons/bs";
 
 function Home2() {
   return (
@@ -53,13 +54,14 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>Excited to connect with You!</h1>
             <p>
-              Feel free to <span className="blue">connect </span>with me
+              Feel free to <span className="blue">connect </span>with me via
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+                  href="mailto:kevinallen5877066@gmail.com?subject=To Kevin!&body=Hi there!%0D%0AYou are invited to join us for an event. Looking forward to seeing you!"
                 >
                   <SiGmail />
                 </a>
@@ -68,17 +70,27 @@ function Home2() {
                 <a
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+                  href="https://wa.me/17622158287?text=Hello, Kevin!%20I%20would%20like%20to%20contact%20with%20you."
                 >
                   <SiWhatsapp />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  // href = "https://github.com/kevin0820-dev"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+                  href="https://discord.gg/invite-code"
                 >
-                  <SiGithub />
+                  <BsDiscord />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                  href="skype:live:.cid.74205addcd887d45?chat"
+                >
+                  <BsSkype />
                 </a>
               </li>
             </ul>
