@@ -40,7 +40,7 @@ function Projects() {
                   It was built upon
                   &nbsp;<b className="blue">React/Redux</b>&nbsp;,
                   &nbsp;<b className="blue">Node</b>&nbsp;
-                  and provided a great help to Ceras Health operate a well-optimized hospital management system that significantly enhanced the quality of care and operations.
+                  and provided a great help to people experiecing the awesomeness of the digital art world.
                 </div>}
               ghLink=""
               demoLink="https://gallerai.ai/"
