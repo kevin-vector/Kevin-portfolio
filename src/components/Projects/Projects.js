@@ -107,22 +107,6 @@ function Projects() {
 
           <Col md={4} className="project-card">``
             <ProjectCard
-              imgPath={zillow}
-              isBlog={false}
-              title="Zillow"
-              description={<div>
-                  Zillow enhance Zillow Gruop's dedication to enhancing digital accessibility for individuals with disabilities by continually improving their online services and welcoming user feedback. I developed
-                  &nbsp;<b className="blue">front end</b>&nbsp;
-                  site with 
-                  &nbsp;<b className="blue">React.js</b>&nbsp;
-                </div>}
-              ghLink=""
-              demoLink="https://zillow.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">``
-            <ProjectCard
               imgPath={twitterClone}
               isBlog={false}
               title="Twitter Clone"

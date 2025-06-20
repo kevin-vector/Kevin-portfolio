@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import { SiGithub, SiGmail, SiWhatsapp } from "react-icons/si";
+import { SiGmail, SiWhatsapp } from "react-icons/si";
 import { BsDiscord, BsSkype } from "react-icons/bs";
 
 function Home2() {
