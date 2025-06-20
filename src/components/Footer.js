@@ -24,7 +24,7 @@ function Footer() {
                 <SiGmail />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://wa.me/17622158287?text=Hello, Kevin!%20I%20would%20like%20to%20contact%20with%20you."
                 style={{ color: "white" }}
@@ -33,7 +33,7 @@ function Footer() {
               >
                 <BsWhatsapp />
               </a>
-            </li>
+            </li> */}
             <li className="social-icons">
               <a
                 href="https://discord.gg/invite-code"
